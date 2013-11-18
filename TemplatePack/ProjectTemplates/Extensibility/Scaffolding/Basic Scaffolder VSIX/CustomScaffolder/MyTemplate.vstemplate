@@ -21,7 +21,11 @@
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="true" TargetFileName="template.txt">template.txt</ProjectItem>
+      <Folder Name="Templates" TargetFolderName="Templates">
+        <Folder Name="HelloWorldCodeGenerator" TargetFolderName="$safeprojectname$CodeGenerator">
+          <ProjectItem ReplaceParameters="true" TargetFileName="template.txt">template.txt</ProjectItem>
+        </Folder>  
+      </Folder>      
     </Project>
   </TemplateContent>
 </VSTemplate>

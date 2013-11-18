@@ -1,0 +1,13 @@
+﻿<Window x:Class="CustomScaffolder.UI.InputForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enter your name" Height="212" Width="466.4"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow">
+    <Grid>
+        <Label Name="LabelFieldName" Content="Your name" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="440"/>
+        <TextBox Name="TextFieldValue" Height="23" Margin="10,73,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button Name="ButtonCancel" IsCancel="True" Content="Cancel" HorizontalAlignment="Left" Margin="375,153,0,0" VerticalAlignment="Top" Width="75" Click="CancelClicked"/>
+        <Button Name="ButtonOk" IsDefault="True" Content="OK" HorizontalAlignment="Left" Margin="278,153,0,0" VerticalAlignment="Top" Width="75" Click="OkClicked"/>
+    </Grid>
+</Window>
