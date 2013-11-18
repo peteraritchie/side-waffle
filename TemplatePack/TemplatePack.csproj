@@ -499,6 +499,7 @@
     <None Include="ItemTemplates\Extensibility\VS Command Table\_Definitions\CSharp.vstemplate" />
     <None Include="ItemTemplates\Web\Misc\ReadmeMd\icon.pdn" />
     <None Include="ItemTemplates\Web\Misc\ReadmeMd\readme.md" />
+    <None Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\Templates\HelloWorldCodeGenerator\hello.cs.t4" />
     <None Include="ProjectTemplates\Web\Chrome Extension\app\manifest.json" />
     <None Include="ProjectTemplates\Web\Chrome Extension\Properties\build\ligershark.chrome.targets" />
     <None Include="ProjectTemplates\Web\Chrome Theme\app\manifest.json" />

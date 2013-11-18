@@ -24,8 +24,13 @@
       <Folder Name="Templates" TargetFolderName="Templates">
         <Folder Name="HelloWorldCodeGenerator" TargetFolderName="$safeprojectname$CodeGenerator">
           <ProjectItem ReplaceParameters="true" TargetFileName="template.txt">template.txt</ProjectItem>
-        </Folder>  
-      </Folder>      
+          <ProjectItem ReplaceParameters="true" TargetFileName="hello.cs.t4">hello.cs.t4</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="UI" TargetFolderName="UI">
+        <ProjectItem ReplaceParameters="true" TargetFileName="InputForm.xaml">InputForm.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InputForm.xaml.cs">InputForm.xaml.cs</ProjectItem>
+      </Folder>
     </Project>
   </TemplateContent>
 </VSTemplate>
