@@ -184,6 +184,8 @@
     <None Include="ItemTemplates\Extensibility\SideWaffle\SideWaffle-ItemTemplate-Basic\Web.VB.vstemplat-">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="ItemTemplates\Extensibility\Scaffolding\Custom T4 Files\_Definitions\VB.vstemplate" />
+    <Content Include="ItemTemplates\Extensibility\Scaffolding\Custom T4 Files\scaffolding-file-icon.png" />
     <Content Include="ItemTemplates\Extensibility\Scaffolding\Custom T4 Files\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Extensibility\SideWaffle\SideWaffle-DefinitionFiles\file-icon.png" />
     <Content Include="ItemTemplates\Extensibility\SideWaffle\SideWaffle-DefinitionFiles\icon.png" />
