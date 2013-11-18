@@ -256,6 +256,16 @@
     <Content Include="ProjectTemplates\Extensibility\BrowserLinkExtensionSimple\Scripts\MyExtension.js" />
     <Content Include="ProjectTemplates\Extensibility\BrowserLinkExtensionSimple\_Definitions\CSharp.vstemplate" />
     <None Include="ProjectTemplates\Extensibility\BrowserLinkExtensionSimple\_source.extension.vsixmanifest" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\CustomScaffolder.csproj" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\logo.png" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\template.txt" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\logo.png" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\VSIXProject1\logo.png" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\VSIXProject1\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\VSIXProject1\source.extension.vsixmanifest" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\VSIXProject1\VSIXProject1.csproj" />
+    <Content Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\_Definitions\CSharp.vstemplate" />
     <Content Include="ProjectTemplates\Web\Chrome Extension\app\img\icon.png" />
     <Content Include="ProjectTemplates\Web\Chrome Extension\app\popup.html" />
     <Content Include="ProjectTemplates\Web\Chrome Extension\app\popup.js" />
@@ -486,6 +496,10 @@
     <Compile Include="ItemTemplates\Web\_Samples\_Sample Multi Files\SearchController.cs" />
     <Compile Include="ItemTemplates\Web\_Samples\_Sample Multi Files\WorkerService\ISearchWorkerService.cs" />
     <Compile Include="ItemTemplates\Web\_Samples\_Sample Multi Files\WorkerService\SearchWorkerService.cs" />
+    <Compile Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\HelloWorldCodeGenerator.cs" />
+    <Compile Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\HelloWorldCodeGeneratorFactory.cs" />
+    <Compile Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\CustomScaffolder\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjectTemplates\Extensibility\Scaffolding\Basic Scaffolder VSIX\VSIXProject1\Properties\AssemblyInfo.cs" />
     <Compile Include="ProjectTemplates\Web\_Sample Multi Project\Shared\Contact.cs" />
     <Compile Include="ProjectTemplates\Web\_Sample Multi Project\Shared\Properties\AssemblyInfo.cs" />
     <Compile Include="ProjectTemplates\Web\_Sample Multi Project\Web\Default.aspx.cs">
