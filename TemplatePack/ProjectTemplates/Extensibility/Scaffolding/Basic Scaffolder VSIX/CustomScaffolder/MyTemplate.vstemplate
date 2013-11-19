@@ -18,8 +18,14 @@
     <Project TargetFileName="$safeprojectname$.csproj" File="CustomScaffolder.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$CodeGenerator.cs">HelloWorldCodeGenerator.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$CodeGeneratorFactory.cs">HelloWorldCodeGeneratorFactory.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BitmapExtensions.cs">BitmapExtensions.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="codegenicon.ico">codegenicon.ico</ProjectItem>
       </Folder>
       <Folder Name="Templates" TargetFolderName="Templates">
         <Folder Name="HelloWorldCodeGenerator" TargetFolderName="$safeprojectname$CodeGenerator">

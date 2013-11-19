@@ -1,0 +1,18 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    
+    <DefaultName>MyScaffolder</DefaultName>
+    <Name>ASP.NET Basic scaffolder</Name>
+    <Description>Template for creating a basic ASP.NET scaffolder</Description>    
+    <Icon>scaffolding-file-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <!-- Use .\update.ps1 to re-generate the content here-->
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$CodeGenerator.cs">HelloWorldCodeGenerator.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$CodeGeneratorFactory.cs">HelloWorldCodeGeneratorFactory.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Templates\HelloWorldCodeGenerator\hello.cs.t4">Templates\HelloWorldCodeGenerator\hello.cs.t4</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Templates\HelloWorldCodeGenerator\template.txt">Templates\HelloWorldCodeGenerator\template.txt</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

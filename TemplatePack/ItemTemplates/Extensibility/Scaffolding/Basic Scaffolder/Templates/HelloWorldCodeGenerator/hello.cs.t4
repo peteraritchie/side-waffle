@@ -1,0 +1,19 @@
+﻿<#@ template language="C#" HostSpecific="True" #>
+<#@ output extension="cs" #>
+<#@ parameter type="System.String" name="Name" #>
+<#@ parameter type="System.String" name="Namespace" #>
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace <#= Namespace #>
+{
+    public class Sample
+    {
+        public string Hello(){
+			return "Hello <#= Name #>";
+		}
+    }
+}
