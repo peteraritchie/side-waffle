@@ -28,7 +28,7 @@ namespace $rootnamespace$ {
                 id: typeof(MyCodeGenerator).Name,
                 gestures: new[] { (string)null },
                 icon: Resources.codegenicon.ToBitmap().ToImageSource(),
-                categories: new[] { "$safeitemname$" }
+                categories: new[] { "MVC" }
                 );
         }
     }
