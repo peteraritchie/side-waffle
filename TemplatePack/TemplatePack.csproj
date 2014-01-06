@@ -585,6 +585,7 @@
     <ProjectReference Include="..\PortraitLandscapePhoneApp\PortraitLandscapePhoneApp.csproj">
       <Project>{680e46d7-885d-489f-9265-5897cd7a000f}</Project>
       <Name>PortraitLandscapePhoneApp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\_SampleProjRef\_SampleProjRef.csproj">
       <Project>{0328c195-795d-423f-99ac-9ecf8b0b5198}</Project>
       <Name>_SampleProjRef</Name>
