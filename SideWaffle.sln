@@ -4,6 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePack", "TemplatePac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08B623FA-FC04-49A5-8BB5-033E05154B7E}"
 	ProjectSection(SolutionItems) = preProject
+		build-debug.ps1 = build-debug.ps1
 		build.cmd = build.cmd
 		build.proj = build.proj
 		tools\Install.ps1 = tools\Install.ps1
@@ -21,6 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CF6C5B
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortraitLandscapePhoneApp", "PortraitLandscapePhoneApp\PortraitLandscapePhoneApp.csproj", "{680E46D7-885D-489F-9265-5897CD7A000F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_SampleProjRef", "_SampleProjRef\_SampleProjRef.csproj", "{0328C195-795D-423F-99AC-9ECF8B0B5198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,9 @@ Global
 		{680E46D7-885D-489F-9265-5897CD7A000F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{680E46D7-885D-489F-9265-5897CD7A000F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{680E46D7-885D-489F-9265-5897CD7A000F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0328C195-795D-423F-99AC-9ECF8B0B5198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0328C195-795D-423F-99AC-9ECF8B0B5198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0328C195-795D-423F-99AC-9ECF8B0B5198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
